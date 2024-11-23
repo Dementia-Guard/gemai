@@ -39,8 +39,8 @@ class GemAiController {
 
             // Send the response
             return response(res, true, 200, {
-                response: responseText,
-                chatHistory: userHistories[uid],
+                response: responseText
+                // chatHistory: userHistories[uid],
             });
         } catch (error) {
             console.log(error);
