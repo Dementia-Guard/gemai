@@ -1,0 +1,27 @@
+{
+  "name": "gemini-ai",
+  "version": "1.0.0",
+  "description": "a simple node app with gemini capabilities",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "keywords": [
+    "ai"
+  ],
+  "author": "moshdev2213",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
