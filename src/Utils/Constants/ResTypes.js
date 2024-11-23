@@ -8,7 +8,7 @@ class ResTypes {
     };
     successMessages = {
         data_retrieved: { message: "Data retrieved successfully" },
-        server_online: { message: "Auth Service Online" },
+        server_online: { message: "GemAi Service Online" },
     };
 }
 
